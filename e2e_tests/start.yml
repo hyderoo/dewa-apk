@@ -1,0 +1,4 @@
+appId: com.dewa_wo_app
+---
+- launchApp
+- assertVisible: "Home" # Ganti sesuai UI kamu

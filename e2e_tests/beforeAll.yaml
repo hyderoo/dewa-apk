@@ -1,0 +1,9 @@
+appId: com.dewa_wo_app
+---
+- launchApp
+- tapOn: "Email"
+- inputText: "admin@example.com"
+- tapOn: "Password"
+- inputText: "password123"
+- tapOn: "Login"
+- assertVisible: "Welcome"

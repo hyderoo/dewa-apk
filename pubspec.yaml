@@ -1,0 +1,96 @@
+name: dewa_wo_app
+description: Wedding Organizer App with Authentication Features.
+publish_to: "none"
+version: 1.0.0+5
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+
+  # Routing
+  go_router: ^15.1.1
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+
+  # HTTP client
+  dio: ^5.8.0+1
+
+  # Dependency Injection
+  get_it: ^8.0.3
+  injectable: ^2.3.2
+
+  # Local storage
+  hive_ce: ^2.11.1
+  hive_ce_flutter: ^2.3.0
+  path_provider: ^2.1.5
+
+  # JSON serialization
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+
+  # UI
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  intl: ^0.20.2
+  table_calendar: ^3.2.0
+  image_picker: ^1.1.2
+  toastify_flutter: ^2.1.1
+  font_awesome_flutter: ^10.8.0
+  cached_network_image: ^3.3.1
+
+  # URL Launcher
+  url_launcher: ^6.3.1
+  flutter_image_compress: ^2.4.0
+  path: ^1.9.1
+  collection: ^1.19.1
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Code generation
+  build_runner: ^2.4.15
+  freezed: ^3.0.6
+  json_serializable: ^6.9.5
+  hive_ce_generator: ^1.9.1
+  injectable_generator: ^2.4.1
+
+  # For testing
+  mockito: ^5.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/menu/
+
+spider:
+  generate_tests: false
+  no_comments: true
+  export: true
+  use_part_of: true
+  use_references_list: false
+  package: resources
+  groups:
+    - path: assets
+      class_name: AppAssets
+      types: [.png, .jpg, .jpeg, .webp, .webm, .bmp]
+    - path: assets/animations
+      class_name: AppAnimations
+      types: [.json]
+    - path: assets/icons
+      class_name: AppIcons
+      types: [.png, .jpg, .jpeg, .webp, .webm, .bmp]
+    - path: assets/menu
+      class_name: AppMenu
+      types: [.png, .jpg, .jpeg, .webp, .webm, .bmp]
