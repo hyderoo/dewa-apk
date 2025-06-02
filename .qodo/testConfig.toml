@@ -1,0 +1,3 @@
+[dart]
+testingFramework = "flutter_test"
+mockingFramework = "Mockito"

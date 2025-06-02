@@ -11,30 +11,30 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.5
 
-  # Routing
+  # ini buat Routing 
   go_router: ^15.1.1
 
-  # State Management
+  # ini buat State Management
   flutter_bloc: ^9.1.1
   bloc: ^9.0.0
 
-  # HTTP client
+  # ini buat HTTP client (ngambil data http dari server)
   dio: ^5.8.0+1
 
-  # Dependency Injection
+  # ini buat Dependency Injection
   get_it: ^8.0.3
   injectable: ^2.3.2
 
-  # Local storage
+  # ini buat Local storage
   hive_ce: ^2.11.1
   hive_ce_flutter: ^2.3.0
   path_provider: ^2.1.5
 
-  # JSON serialization
+  # ini buat JSON serialization
   freezed_annotation: ^3.0.0
   json_annotation: ^4.9.0
 
-  # UI
+  # ini buat UI
   google_fonts: ^6.2.1
   shimmer: ^3.0.0
   intl: ^0.20.2
@@ -44,7 +44,7 @@ dependencies:
   font_awesome_flutter: ^10.8.0
   cached_network_image: ^3.3.1
 
-  # URL Launcher
+  # ini buat URL Launcher
   url_launcher: ^6.3.1
   flutter_image_compress: ^2.4.0
   path: ^1.9.1
@@ -56,7 +56,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-  # Code generation
+  # ini buat Code generation
   build_runner: ^2.4.15
   freezed: ^3.0.6
   json_serializable: ^6.9.5

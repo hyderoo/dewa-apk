@@ -1,0 +1,2 @@
+W:/DewaManagement/DewaManagementAPK/AplikasiDewaManagement/android/app/.cxx/RelWithDebInfo/1s6t5553/armeabi-v7a/CMakeFiles/edit_cache.dir
+W:/DewaManagement/DewaManagementAPK/AplikasiDewaManagement/android/app/.cxx/RelWithDebInfo/1s6t5553/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510288742116",
+    "project_id": "dewamanagement-ff471",
+    "storage_bucket": "dewamanagement-ff471.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510288742116:android:e81c908542162e24f58ef1",
+        "android_client_info": {
+          "package_name": "com.dewa_wo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9z5Hlk_UrxdLbZnNWt43QrPdXF4fL10s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
