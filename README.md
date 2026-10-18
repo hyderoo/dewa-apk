@@ -62,6 +62,10 @@ Signing keys are not part of this repository. To build a release, create your ow
 flutter test
 ```
 
+Basic Maestro smoke flows live in `e2e_tests/`. They are run locally with
+the Maestro CLI (`maestro test e2e_tests/<flow>.yaml`); there is no CI for
+this repo, so it carries no tests-passing badge.
+
 ## Author
 
 Hafiz Hamdani ([@hyderoo](https://github.com/hyderoo))
