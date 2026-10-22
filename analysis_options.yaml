@@ -11,6 +11,10 @@ analyzer:
   errors:
     invalid_annotation_target: ignore
     deprecated_member_use: ignore
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
 include: package:flutter_lints/flutter.yaml
 
 linter:

@@ -66,7 +66,7 @@ ThemeData _theme(TextTheme textTheme) => ThemeData(
         bodyLarge: const TextStyle(color: Colors.black87),
         bodyMedium: const TextStyle(color: Colors.black54),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 2,
         margin: const EdgeInsets.all(2),
         shape: RoundedRectangleBorder(
