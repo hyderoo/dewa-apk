@@ -1,5 +1,7 @@
 # Dewa WO App
 
+[![test](https://github.com/hyderoo/dewa-apk/actions/workflows/test.yml/badge.svg)](https://github.com/hyderoo/dewa-apk/actions/workflows/test.yml)
+
 Flutter mobile app for **Dewa Management**, a wedding services business. It is the mobile client for the Dewa Management web platform ([dewa-wo](https://github.com/hyderoo/dewa-wo), Laravel) and talks to its REST API (`https://dewamanagement.com/api/v1`).
 
 Built as a final thesis project (Computer Engineering, Universitas Diponegoro) for a real stakeholder.
@@ -62,9 +64,12 @@ Signing keys are not part of this repository. To build a release, create your ow
 flutter test
 ```
 
+CI runs `flutter analyze` and the widget tests in `test/` on every push
+(see the badge above).
+
 Basic Maestro smoke flows live in `e2e_tests/`. They are run locally with
-the Maestro CLI (`maestro test e2e_tests/<flow>.yaml`); there is no CI for
-this repo, so it carries no tests-passing badge.
+the Maestro CLI (`maestro test e2e_tests/<flow>.yaml`) against a real
+device or emulator, so they are not part of CI.
 
 ## Author
 
